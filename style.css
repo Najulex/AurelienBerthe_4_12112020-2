@@ -162,6 +162,23 @@ a:hover {
     color: rgba(255, 255, 255, 1);
 }
 
+.d-bloc .a-btn:focus,
+.d-bloc .navbar a:focus,
+.d-bloc .navbar-brand:focus,
+.d-bloc a:focus .icon-sm,
+.d-bloc a:focus .icon-md,
+.d-bloc a:focus .icon-lg,
+.d-bloc a:focus .icon-xl,
+.d-bloc h1 a:focus,
+.d-bloc h2 a:focus,
+.d-bloc h3 a:focus,
+.d-bloc h4 a:focus,
+.d-bloc h5 a:focus,
+.d-bloc h6 a:focus,
+.d-bloc p a:focus {
+    color: rgba(255, 255, 255, 1);
+}
+
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
 }
@@ -343,7 +360,6 @@ a:hover {
 
 .nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
 }
 
 .navbar-toggle {
@@ -545,7 +561,8 @@ a[data-lightbox] {
     text-align: center;
 }
 
-a[data-lightbox]:hover::before {
+a[data-lightbox]:hover::before,
+a[data-lightbox]:focus::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
@@ -563,7 +580,8 @@ a[data-lightbox]:hover::before {
     -webkit-transform: translateY(-50%);
 }
 
-a[data-lightbox]:hover img {
+a[data-lightbox]:hover img,
+a[data-lightbox]:focus img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
@@ -794,7 +812,8 @@ h4 {
     color: #333333!important;
 }
 
-.btn-atomic-tangerine:hover {
+.btn-atomic-tangerine:hover,
+.btn-atomic-tangerine:focus {
     background: #c27956!important;
     color: #FFFFFF!important;
 }
@@ -803,8 +822,9 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.ltc-white:hover {
-    color: #cccccc!important;
+.ltc-white:hover, .ltc-white:focus {
+    color: #333333!important;
+    background-color: #F3976C;
 }
 
 .ltc-atomic-tangerine {

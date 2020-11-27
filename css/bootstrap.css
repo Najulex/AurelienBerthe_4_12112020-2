@@ -4839,13 +4839,13 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav>li>a {
     position: relative;
     display: block;
-    padding: 10px 15px
+    padding: 10px 10px
 }
 
 .nav>li>a:focus,
 .nav>li>a:hover {
     text-decoration: none;
-    background-color: #eee
+    background-color: rgba(0, 0, 0, 0.116)
 }
 
 .nav>li.disabled>a {
@@ -4945,7 +4945,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav-tabs.nav-justified>.active>a,
 .nav-tabs.nav-justified>.active>a:focus,
 .nav-tabs.nav-justified>.active>a:hover {
-    border: 1px solid #ddd
+    border: 1px solid rgb(99, 99, 99)
 }
 
 @media (min-width:768px) {
